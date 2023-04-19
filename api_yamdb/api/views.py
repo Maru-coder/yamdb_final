@@ -8,18 +8,19 @@ from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import RefreshToken
+
 from reviews.models import Category, Genre, Review, Title
 from users.models import User
 
 from .filters import TitleFilter
 from .mixins import CreateDestroyViewSet
 from .permissions import (IsAdmin, IsAdminAuthorModerator,
-                          IsAdminSuperuserOrReadOnly)
+                          IsAdminSuperuserOrReadOnly,)
 from .serializers import (AdminSerializer, CategorySerializer,
                           CommentSerializer, GenreSerializer,
                           ReadTitleSerializer, ReviewSerializer,
                           SignUpSerializer, TitleSerializer, TokenSerializer,
-                          UserSerializer)
+                          UserSerializer,)
 from .utils import send_confirmation_code
 
 
