@@ -6,12 +6,11 @@ from .views import (
     CommentViewSet,
     GenreViewSet,
     ReviewViewSet,
-    TitleViewSet,
-    UserViewSet,
     signup,
+    TitleViewSet,
     token,
+    UserViewSet,
 )
-
 app_name = 'api'
 
 router = routers.DefaultRouter()
