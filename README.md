@@ -1,5 +1,7 @@
 # *API_YaMDb*
 
+https://github.com/Maru-coder/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+
 ## Описание
 
 Проект YaMDb собирает отзывы пользователей на произведения. 
