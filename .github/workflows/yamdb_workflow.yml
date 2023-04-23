@@ -42,7 +42,7 @@ jobs:
           uses: docker/build-push-action@v2
           with:
             push: true
-            tags: marishaezhik/api_yamdb-web:v2.2023
+            tags: marishaezhik/yamdb-final-web:v1
             file: api_yamdb/Dockerfile
 
   deploy:
