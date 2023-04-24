@@ -14,7 +14,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: marishaezhik/web-yamdb:latest
+    image: marishaezhik/sprint_yamdb:v1
     restart: always
     volumes:
       - static_value:/app/static/
