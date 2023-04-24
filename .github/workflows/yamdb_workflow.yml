@@ -47,7 +47,7 @@ jobs:
         with:
           push: true
           tags: marishaezhik/web-yamdb:latest
-          file: api_yamdb/Dockerfile
+          file: ./Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
